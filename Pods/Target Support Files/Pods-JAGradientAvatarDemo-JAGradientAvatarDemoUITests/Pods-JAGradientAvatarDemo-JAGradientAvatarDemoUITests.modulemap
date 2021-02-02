@@ -1,0 +1,6 @@
+framework module Pods_JAGradientAvatarDemo_JAGradientAvatarDemoUITests {
+  umbrella header "Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

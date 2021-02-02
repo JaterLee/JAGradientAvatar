@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5693B22125C3B06A00A383E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693B22025C3B06A00A383E7 /* AppDelegate.m */; };
+		5693B22425C3B06A00A383E7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693B22325C3B06A00A383E7 /* SceneDelegate.m */; };
+		5693B22725C3B06A00A383E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693B22625C3B06A00A383E7 /* ViewController.m */; };
+		5693B22A25C3B06A00A383E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5693B22825C3B06A00A383E7 /* Main.storyboard */; };
+		5693B22C25C3B06C00A383E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5693B22B25C3B06C00A383E7 /* Assets.xcassets */; };
+		5693B22F25C3B06C00A383E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5693B22D25C3B06C00A383E7 /* LaunchScreen.storyboard */; };
+		5693B23225C3B06C00A383E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693B23125C3B06C00A383E7 /* main.m */; };
+		5693B23C25C3B06D00A383E7 /* JAGradientAvatarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693B23B25C3B06D00A383E7 /* JAGradientAvatarDemoTests.m */; };
+		5693B24725C3B06D00A383E7 /* JAGradientAvatarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693B24625C3B06D00A383E7 /* JAGradientAvatarDemoUITests.m */; };
+		5693B26325C400CA00A383E7 /* BXMagicBorderAvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5693B26225C400CA00A383E7 /* BXMagicBorderAvatarView.m */; };
+		5F8FCF2838A4607811F90455 /* Pods_JAGradientAvatarDemo_JAGradientAvatarDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B45B8743A614B99FA45F4C7 /* Pods_JAGradientAvatarDemo_JAGradientAvatarDemoUITests.framework */; };
+		92358FFCF877AC87740489E6 /* Pods_JAGradientAvatarDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B40C7FB1A9AF4A9D20EF9F6 /* Pods_JAGradientAvatarDemoTests.framework */; };
+		9F00BF6AAA40AE9625077E47 /* Pods_JAGradientAvatarDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02138C6B057F3A3DB884702D /* Pods_JAGradientAvatarDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5693B23825C3B06D00A383E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5693B21425C3B06900A383E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5693B21B25C3B06900A383E7;
+			remoteInfo = JAGradientAvatarDemo;
+		};
+		5693B24325C3B06D00A383E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5693B21425C3B06900A383E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5693B21B25C3B06900A383E7;
+			remoteInfo = JAGradientAvatarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02138C6B057F3A3DB884702D /* Pods_JAGradientAvatarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAGradientAvatarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		030AA2BBB869C292E3E07DEA /* Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests/Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0871210732AE3DFCC17F224D /* Pods-JAGradientAvatarDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAGradientAvatarDemoTests.release.xcconfig"; path = "Target Support Files/Pods-JAGradientAvatarDemoTests/Pods-JAGradientAvatarDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B45B8743A614B99FA45F4C7 /* Pods_JAGradientAvatarDemo_JAGradientAvatarDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAGradientAvatarDemo_JAGradientAvatarDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B40C7FB1A9AF4A9D20EF9F6 /* Pods_JAGradientAvatarDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAGradientAvatarDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDB54328DD88A12D59A0679 /* Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests/Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52FA3A68B24EB8001884B2C3 /* Pods-JAGradientAvatarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAGradientAvatarDemo.debug.xcconfig"; path = "Target Support Files/Pods-JAGradientAvatarDemo/Pods-JAGradientAvatarDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5693B21C25C3B06A00A383E7 /* JAGradientAvatarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAGradientAvatarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5693B21F25C3B06A00A383E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5693B22025C3B06A00A383E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5693B22225C3B06A00A383E7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5693B22325C3B06A00A383E7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5693B22525C3B06A00A383E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5693B22625C3B06A00A383E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5693B22925C3B06A00A383E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5693B22B25C3B06C00A383E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5693B22E25C3B06C00A383E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5693B23025C3B06C00A383E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5693B23125C3B06C00A383E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5693B23725C3B06D00A383E7 /* JAGradientAvatarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAGradientAvatarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5693B23B25C3B06D00A383E7 /* JAGradientAvatarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAGradientAvatarDemoTests.m; sourceTree = "<group>"; };
+		5693B23D25C3B06D00A383E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5693B24225C3B06D00A383E7 /* JAGradientAvatarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAGradientAvatarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5693B24625C3B06D00A383E7 /* JAGradientAvatarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAGradientAvatarDemoUITests.m; sourceTree = "<group>"; };
+		5693B24825C3B06D00A383E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5693B26125C400CA00A383E7 /* BXMagicBorderAvatarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BXMagicBorderAvatarView.h; sourceTree = "<group>"; };
+		5693B26225C400CA00A383E7 /* BXMagicBorderAvatarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXMagicBorderAvatarView.m; sourceTree = "<group>"; };
+		CBAD0F34DCCDB5E52B19285E /* Pods-JAGradientAvatarDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAGradientAvatarDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-JAGradientAvatarDemoTests/Pods-JAGradientAvatarDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D82AB853CC39FCFC73E0654E /* Pods-JAGradientAvatarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAGradientAvatarDemo.release.xcconfig"; path = "Target Support Files/Pods-JAGradientAvatarDemo/Pods-JAGradientAvatarDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5693B21925C3B06900A383E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F00BF6AAA40AE9625077E47 /* Pods_JAGradientAvatarDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5693B23425C3B06D00A383E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92358FFCF877AC87740489E6 /* Pods_JAGradientAvatarDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5693B23F25C3B06D00A383E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8FCF2838A4607811F90455 /* Pods_JAGradientAvatarDemo_JAGradientAvatarDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5693B21325C3B06900A383E7 = {
+			isa = PBXGroup;
+			children = (
+				5693B21E25C3B06A00A383E7 /* JAGradientAvatarDemo */,
+				5693B23A25C3B06D00A383E7 /* JAGradientAvatarDemoTests */,
+				5693B24525C3B06D00A383E7 /* JAGradientAvatarDemoUITests */,
+				5693B21D25C3B06A00A383E7 /* Products */,
+				FA6F1769F8F83A9DD7274ACF /* Pods */,
+				65E0B0F4F60616333B2DA328 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5693B21D25C3B06A00A383E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5693B21C25C3B06A00A383E7 /* JAGradientAvatarDemo.app */,
+				5693B23725C3B06D00A383E7 /* JAGradientAvatarDemoTests.xctest */,
+				5693B24225C3B06D00A383E7 /* JAGradientAvatarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5693B21E25C3B06A00A383E7 /* JAGradientAvatarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5693B21F25C3B06A00A383E7 /* AppDelegate.h */,
+				5693B22025C3B06A00A383E7 /* AppDelegate.m */,
+				5693B22225C3B06A00A383E7 /* SceneDelegate.h */,
+				5693B22325C3B06A00A383E7 /* SceneDelegate.m */,
+				5693B22525C3B06A00A383E7 /* ViewController.h */,
+				5693B22625C3B06A00A383E7 /* ViewController.m */,
+				5693B26125C400CA00A383E7 /* BXMagicBorderAvatarView.h */,
+				5693B26225C400CA00A383E7 /* BXMagicBorderAvatarView.m */,
+				5693B22825C3B06A00A383E7 /* Main.storyboard */,
+				5693B22B25C3B06C00A383E7 /* Assets.xcassets */,
+				5693B22D25C3B06C00A383E7 /* LaunchScreen.storyboard */,
+				5693B23025C3B06C00A383E7 /* Info.plist */,
+				5693B23125C3B06C00A383E7 /* main.m */,
+			);
+			path = JAGradientAvatarDemo;
+			sourceTree = "<group>";
+		};
+		5693B23A25C3B06D00A383E7 /* JAGradientAvatarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5693B23B25C3B06D00A383E7 /* JAGradientAvatarDemoTests.m */,
+				5693B23D25C3B06D00A383E7 /* Info.plist */,
+			);
+			path = JAGradientAvatarDemoTests;
+			sourceTree = "<group>";
+		};
+		5693B24525C3B06D00A383E7 /* JAGradientAvatarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5693B24625C3B06D00A383E7 /* JAGradientAvatarDemoUITests.m */,
+				5693B24825C3B06D00A383E7 /* Info.plist */,
+			);
+			path = JAGradientAvatarDemoUITests;
+			sourceTree = "<group>";
+		};
+		65E0B0F4F60616333B2DA328 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02138C6B057F3A3DB884702D /* Pods_JAGradientAvatarDemo.framework */,
+				2B45B8743A614B99FA45F4C7 /* Pods_JAGradientAvatarDemo_JAGradientAvatarDemoUITests.framework */,
+				3B40C7FB1A9AF4A9D20EF9F6 /* Pods_JAGradientAvatarDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA6F1769F8F83A9DD7274ACF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52FA3A68B24EB8001884B2C3 /* Pods-JAGradientAvatarDemo.debug.xcconfig */,
+				D82AB853CC39FCFC73E0654E /* Pods-JAGradientAvatarDemo.release.xcconfig */,
+				3EDB54328DD88A12D59A0679 /* Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests.debug.xcconfig */,
+				030AA2BBB869C292E3E07DEA /* Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests.release.xcconfig */,
+				CBAD0F34DCCDB5E52B19285E /* Pods-JAGradientAvatarDemoTests.debug.xcconfig */,
+				0871210732AE3DFCC17F224D /* Pods-JAGradientAvatarDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5693B21B25C3B06900A383E7 /* JAGradientAvatarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5693B24B25C3B06D00A383E7 /* Build configuration list for PBXNativeTarget "JAGradientAvatarDemo" */;
+			buildPhases = (
+				DFFAA8D6A0AC4A866B01F730 /* [CP] Check Pods Manifest.lock */,
+				5693B21825C3B06900A383E7 /* Sources */,
+				5693B21925C3B06900A383E7 /* Frameworks */,
+				5693B21A25C3B06900A383E7 /* Resources */,
+				A59AA3C6E13EE066597A6423 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAGradientAvatarDemo;
+			productName = JAGradientAvatarDemo;
+			productReference = 5693B21C25C3B06A00A383E7 /* JAGradientAvatarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5693B23625C3B06D00A383E7 /* JAGradientAvatarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5693B24E25C3B06D00A383E7 /* Build configuration list for PBXNativeTarget "JAGradientAvatarDemoTests" */;
+			buildPhases = (
+				3B88D954467000133C17835B /* [CP] Check Pods Manifest.lock */,
+				5693B23325C3B06D00A383E7 /* Sources */,
+				5693B23425C3B06D00A383E7 /* Frameworks */,
+				5693B23525C3B06D00A383E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5693B23925C3B06D00A383E7 /* PBXTargetDependency */,
+			);
+			name = JAGradientAvatarDemoTests;
+			productName = JAGradientAvatarDemoTests;
+			productReference = 5693B23725C3B06D00A383E7 /* JAGradientAvatarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5693B24125C3B06D00A383E7 /* JAGradientAvatarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5693B25125C3B06D00A383E7 /* Build configuration list for PBXNativeTarget "JAGradientAvatarDemoUITests" */;
+			buildPhases = (
+				83FEC0BB8180342462356B38 /* [CP] Check Pods Manifest.lock */,
+				5693B23E25C3B06D00A383E7 /* Sources */,
+				5693B23F25C3B06D00A383E7 /* Frameworks */,
+				5693B24025C3B06D00A383E7 /* Resources */,
+				BC60DE1485E8EACCB2EE3D3D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5693B24425C3B06D00A383E7 /* PBXTargetDependency */,
+			);
+			name = JAGradientAvatarDemoUITests;
+			productName = JAGradientAvatarDemoUITests;
+			productReference = 5693B24225C3B06D00A383E7 /* JAGradientAvatarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5693B21425C3B06900A383E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5693B21B25C3B06900A383E7 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5693B23625C3B06D00A383E7 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5693B21B25C3B06900A383E7;
+					};
+					5693B24125C3B06D00A383E7 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5693B21B25C3B06900A383E7;
+					};
+				};
+			};
+			buildConfigurationList = 5693B21725C3B06900A383E7 /* Build configuration list for PBXProject "JAGradientAvatarDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5693B21325C3B06900A383E7;
+			productRefGroup = 5693B21D25C3B06A00A383E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5693B21B25C3B06900A383E7 /* JAGradientAvatarDemo */,
+				5693B23625C3B06D00A383E7 /* JAGradientAvatarDemoTests */,
+				5693B24125C3B06D00A383E7 /* JAGradientAvatarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5693B21A25C3B06900A383E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5693B22F25C3B06C00A383E7 /* LaunchScreen.storyboard in Resources */,
+				5693B22C25C3B06C00A383E7 /* Assets.xcassets in Resources */,
+				5693B22A25C3B06A00A383E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5693B23525C3B06D00A383E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5693B24025C3B06D00A383E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B88D954467000133C17835B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JAGradientAvatarDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83FEC0BB8180342462356B38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A59AA3C6E13EE066597A6423 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JAGradientAvatarDemo/Pods-JAGradientAvatarDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JAGradientAvatarDemo/Pods-JAGradientAvatarDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JAGradientAvatarDemo/Pods-JAGradientAvatarDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC60DE1485E8EACCB2EE3D3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests/Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests/Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests/Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFFAA8D6A0AC4A866B01F730 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JAGradientAvatarDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5693B21825C3B06900A383E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5693B22725C3B06A00A383E7 /* ViewController.m in Sources */,
+				5693B22125C3B06A00A383E7 /* AppDelegate.m in Sources */,
+				5693B23225C3B06C00A383E7 /* main.m in Sources */,
+				5693B26325C400CA00A383E7 /* BXMagicBorderAvatarView.m in Sources */,
+				5693B22425C3B06A00A383E7 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5693B23325C3B06D00A383E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5693B23C25C3B06D00A383E7 /* JAGradientAvatarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5693B23E25C3B06D00A383E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5693B24725C3B06D00A383E7 /* JAGradientAvatarDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5693B23925C3B06D00A383E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5693B21B25C3B06900A383E7 /* JAGradientAvatarDemo */;
+			targetProxy = 5693B23825C3B06D00A383E7 /* PBXContainerItemProxy */;
+		};
+		5693B24425C3B06D00A383E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5693B21B25C3B06900A383E7 /* JAGradientAvatarDemo */;
+			targetProxy = 5693B24325C3B06D00A383E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5693B22825C3B06A00A383E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5693B22925C3B06A00A383E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5693B22D25C3B06C00A383E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5693B22E25C3B06C00A383E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5693B24925C3B06D00A383E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5693B24A25C3B06D00A383E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5693B24C25C3B06D00A383E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52FA3A68B24EB8001884B2C3 /* Pods-JAGradientAvatarDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JAGradientAvatarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jater.JAGradientAvatarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5693B24D25C3B06D00A383E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D82AB853CC39FCFC73E0654E /* Pods-JAGradientAvatarDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JAGradientAvatarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jater.JAGradientAvatarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5693B24F25C3B06D00A383E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBAD0F34DCCDB5E52B19285E /* Pods-JAGradientAvatarDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JAGradientAvatarDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jater.JAGradientAvatarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAGradientAvatarDemo.app/JAGradientAvatarDemo";
+			};
+			name = Debug;
+		};
+		5693B25025C3B06D00A383E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0871210732AE3DFCC17F224D /* Pods-JAGradientAvatarDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JAGradientAvatarDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jater.JAGradientAvatarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAGradientAvatarDemo.app/JAGradientAvatarDemo";
+			};
+			name = Release;
+		};
+		5693B25225C3B06D00A383E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EDB54328DD88A12D59A0679 /* Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JAGradientAvatarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jater.JAGradientAvatarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JAGradientAvatarDemo;
+			};
+			name = Debug;
+		};
+		5693B25325C3B06D00A383E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030AA2BBB869C292E3E07DEA /* Pods-JAGradientAvatarDemo-JAGradientAvatarDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JAGradientAvatarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jater.JAGradientAvatarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JAGradientAvatarDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5693B21725C3B06900A383E7 /* Build configuration list for PBXProject "JAGradientAvatarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5693B24925C3B06D00A383E7 /* Debug */,
+				5693B24A25C3B06D00A383E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5693B24B25C3B06D00A383E7 /* Build configuration list for PBXNativeTarget "JAGradientAvatarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5693B24C25C3B06D00A383E7 /* Debug */,
+				5693B24D25C3B06D00A383E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5693B24E25C3B06D00A383E7 /* Build configuration list for PBXNativeTarget "JAGradientAvatarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5693B24F25C3B06D00A383E7 /* Debug */,
+				5693B25025C3B06D00A383E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5693B25125C3B06D00A383E7 /* Build configuration list for PBXNativeTarget "JAGradientAvatarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5693B25225C3B06D00A383E7 /* Debug */,
+				5693B25325C3B06D00A383E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5693B21425C3B06900A383E7 /* Project object */;
+}
