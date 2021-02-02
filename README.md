@@ -1,2 +1,2 @@
 # JAGradientAvatar
-头像边框+动画
+头像支持渐变边框+动画
