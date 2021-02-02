@@ -15,8 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @protocol BXMagicBorderProtocol <NSObject>
 
-@required
-
 @optional
 
 - (NSArray<UIColor *> *)colorsForMagicBorderView:(BXMagicBorderAvatarView *)borderView;
@@ -29,8 +27,6 @@ NS_ASSUME_NONNULL_BEGIN
  动画配置
  */
 @protocol BXMagicAvatarAnimationProtocol <NSObject>
-
-@required
 
 @optional
 
@@ -51,6 +47,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)stopAnimation;
 
+/**
+ 控制动画进度
+ 
+ precent: 当前进度百分比
+ */
 - (void)processAnimationWithPercent:(CGFloat)precent;
  
 @end

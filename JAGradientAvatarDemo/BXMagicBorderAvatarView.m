@@ -16,28 +16,23 @@
 
 @end
 
+static NSString *const kScaleAnimationKey = @"kScaleAnimationKey";
+static NSString *const kOpacityAnimationKey = @"kOpacityAnimationKey";
+
 @implementation BXMagicBorderAvatarView
+
+- (instancetype)init {
+    if (self = [super initWithFrame:CGRectZero]) {
+        [self drawUI];
+    }
+    return self;
+}
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         [self drawUI];
     }
     return self;
-}
-
-- (void)drawUI {
-    _avatarBgView = [[UIView alloc] init];
-    [self insertSubview:_avatarBgView atIndex:0];
-    _avatarBgView.center = _avatarImageView.center;
-    
-    _gl = [self bgGradientLayer];
-    [_avatarBgView.layer addSublayer:_gl];
-    
-    _avatarImageView = [[UIImageView alloc] init];
-    _avatarImageView.layer.masksToBounds = YES;
-    [self addSubview:_avatarImageView];
-    
-    [_avatarImageView sd_setImageWithURL:[NSURL URLWithString:@"https://avatars.githubusercontent.com/u/13514877?s=460&u=bf68b191d3304d3a5ebcc3d0610e85a72218ded8&v=4"] placeholderImage:nil];
 }
 
 - (void)layoutSubviews {
@@ -55,6 +50,21 @@
     _gl.frame = _avatarBgView.bounds;
     CAShapeLayer *sl = [self shapeLayer];
     _gl.mask = sl;
+}
+
+- (void)drawUI {
+    _avatarBgView = [[UIView alloc] init];
+    [self insertSubview:_avatarBgView atIndex:0];
+    _avatarBgView.center = _avatarImageView.center;
+    
+    _gl = [self bgGradientLayer];
+    [_avatarBgView.layer addSublayer:_gl];
+    
+    _avatarImageView = [[UIImageView alloc] init];
+    _avatarImageView.layer.masksToBounds = YES;
+    [self addSubview:_avatarImageView];
+    
+    [_avatarImageView sd_setImageWithURL:[NSURL URLWithString:@"https://avatars.githubusercontent.com/u/13514877?s=460&u=bf68b191d3304d3a5ebcc3d0610e85a72218ded8&v=4"] placeholderImage:nil];
 }
 
 - (CAGradientLayer *)bgGradientLayer {
@@ -88,7 +98,7 @@
     keyAni.duration = self.aniDuration;
     keyAni.repeatCount = 1;
     
-    [self.layer addAnimation:keyAni forKey:@"sb"];
+    [self.layer addAnimation:keyAni forKey:kScaleAnimationKey];
     
     CAKeyframeAnimation *sizeAni = [CAKeyframeAnimation animationWithKeyPath:@"opacity"];
     sizeAni.values = @[@0, @1, @0];
@@ -102,7 +112,7 @@
     sizeAni.duration = self.aniDuration;
     sizeAni.repeatCount = 1;
     _gl.colors = self.borderColors;
-    [_gl addAnimation:sizeAni forKey:@"333"];
+    [_gl addAnimation:sizeAni forKey:kOpacityAnimationKey];
 
 }
 
@@ -112,7 +122,7 @@
 }
 
 - (void)processAnimationWithPercent:(CGFloat)precent {
-    if (![self.layer animationForKey:@"sb"]) {
+    if (![self.layer animationForKey:kScaleAnimationKey]) {
         self.layer.speed = 0;
         _gl.speed = 0;
         [self startAnimation];
@@ -153,7 +163,7 @@
     if (self.avatarAnimationDelegate && [self.avatarAnimationDelegate respondsToSelector:@selector(configAnimationScaleInAvatarView:)]) {
         return [self.avatarAnimationDelegate configAnimationScaleInAvatarView:self];
     }
-    return 1.5;
+    return 1.5f;
 }
 
 @end
